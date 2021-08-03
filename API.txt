@@ -1,0 +1,28 @@
+API: Application Programming Interface (Interface de programmation)
+
+Une API permet de faire interargir des programmes informatique entre eux.
+
+DOM (Document Object Model) est un standard qui permet d'accéder au contenu HTML (ou XML) afin de le mettre à jour ou modifier son apparence (style) à l'aide d'un langage de programmation.
+Le DOM est souvent associé au Javascript qui renferme une panoplie de méthodes qui permettent de réaliser des prouesses au niveau de l'arborescence, contenu ou style d'un document structuré en HTML ou XML. Cependant le DOM n'est pas supporté que par Javascript mais il est pris en charge par d'autres langages de programmation comme PHP.
+
+Le DOM est un exemple API. Il offre un ensemble de services qui permet au js d'interargir avec la page souhaité.
+
+Une API web est accessible notament grâce au protocole HTTP (ou HTTPS)
+
+
+HTTP (Hypertext Transfer Protocol)
+HTTP (Hypertext Transfer Protocol) est un protocole de communication qui se charge d'acheminer les données hypertextes entre le client et le serveur. Il est sans doute le protocole le plus populaire parmi de nombreux d'autres existants.
+HTTP utilise par défaut le port 80 (qu'on appelle le port d'écoute). Cependant, on peut changer le port d'écoute à sa guise, bien que cette opération n'est pas recommandée pour les serveurs hébergeant des sites Web destinés au public.
+
+
+Pour utilisé une API, il faut l'adresse (URL) et connaître son proccédé de fonctionnement (RTFM)
+
+Pour échanger les données une API le fait habituellement en format JSON
+
+JSON (JavaScript Object Notation)
+JSON (JavaScript Object Notation) est un format d'échange de données dont la structure est proche de celle du XML mais utilise la notation d'objets dérivée du Javascript.
+Le contenu JSON est facile à comprendre et analyser par les humains et les machines. Cette particularité est parmi les points qui l'ont rendu si célèbre et largement utilisé surtout pour l'échange de données en AJAX où via des Services Web.
+
+Pour tester une API (pour chrome) on utilise POSTMAN
+
+Maintenant qu'on connait l'URL de l'API et sont type de donées renvoyées, on va pouvoir exploiter l'API
